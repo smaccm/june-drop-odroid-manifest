@@ -52,6 +52,7 @@
     <project name="libsel4dma.git" path="libs/libsel4dma"/>
     <project name="libsel4allocman.git" path="libs/libsel4allocman"/>
     <project name="libsel4arm-vmm.git" path="libs/libsel4arm-vmm"/>
+    <project name="libusbdrivers.git" path="libs/libusbdrivers"/>
 
     <project name="camkes-arm-vm.git" path="projects/vm">
         <!-- symlinks to make the project structure fit the build system -->
