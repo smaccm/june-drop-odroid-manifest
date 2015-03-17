@@ -11,11 +11,17 @@
   -->
 
 <manifest>
+    <!-- The seL4 remote may not be our current root, so use ..
+         in the fetch path -->
     <remote name="seL4"
+        fetch="../seL4"
+    />
+    <!-- Any repositories not in the seL4 root will be in the current root -->
+    <remote name="local"
         fetch="."
     />
 
-    <!-- default revision for each project, and name of the remote -->
+    <!-- we default to repositories in the seL4 root -->
     <default revision="master"
         remote="seL4"
     />
@@ -23,7 +29,7 @@
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
     <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental"/>
 
-    <project name="seL4.git" path="kernel" revision="arm_hyp" />
+    <project remote="local" name="seL4.git" path="kernel" revision="arm_hyp" />
 
     <project name="elfloader-tool.git" path="tools/elfloader"/>
     <project name="common-tool.git" path="tools/common"/>
@@ -49,12 +55,12 @@
     <project name="libsel4simple-default.git" path="libs/libsel4simple-default"/>
     <project name="libsel4bench.git" path="libs/libsel4bench"/>
 
-    <project name="libsel4dma.git" path="libs/libsel4dma"/>
     <project name="libsel4allocman.git" path="libs/libsel4allocman"/>
-    <project name="libsel4arm-vmm.git" path="libs/libsel4arm-vmm"/>
-    <project name="libusbdrivers.git" path="libs/libusbdrivers"/>
+    <project remote="local" name="libsel4dma.git" path="libs/libsel4dma"/>
+    <project remote="local" name="libsel4arm-vmm.git" path="libs/libsel4arm-vmm"/>
+    <project remote="local" name="libusbdrivers.git" path="libs/libusbdrivers"/>
 
-    <project name="camkes-arm-vm.git" path="projects/vm">
+    <project remote="local" name="camkes-arm-vm.git" path="projects/vm">
         <!-- symlinks to make the project structure fit the build system -->
         <linkfile src="Makefile" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
