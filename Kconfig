@@ -44,6 +44,7 @@ endmenu
 
 menu "Applications"
     source "apps/capdl-loader-experimental/Kconfig"
+    source "apps/camkes-apps-DARPA--devel/Kconfig"
     source "apps/vm/Kconfig"
     source "apps/test_uart_active2/Kconfig"
     source "apps/can/Kconfig"
