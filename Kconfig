@@ -46,6 +46,7 @@ menu "Applications"
     source "apps/capdl-loader-experimental/Kconfig"
     source "apps/vm/Kconfig"
     source "apps/uart-test-active2/Kconfig"
+    source "apps/can/Kconfig"
 
 endmenu
 
