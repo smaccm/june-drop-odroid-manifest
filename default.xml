@@ -64,14 +64,23 @@
         <!-- symlinks to make the project structure fit the build system -->
         <linkfile src="Makefile" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
+	<!--
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
+	-->
+        <linkfile src="../../.repo/manifests/Kconfig" dest="Kconfig"/>
+        <linkfile src="../../.repo/manifests/configs" dest="configs"/>
         <linkfile src="../../tools/camkes/docs/index.md" dest="README.md"/>
         <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
         <linkfile src="../../tools/camkes/libsel4camkes" dest="libs/libsel4camkes"/>
         <linkfile src="apps/vm" dest="apps/vm"/>
     </project>
 
+    <project remote="local" name="smaccm.git" path="projects/smaccm" revision="develop">
+        <!-- symlinks to make the project structure fit the build system -->
+        <linkfile src="models/Trusted_Build_Test/test_uart_active2" dest="apps/test_uart_active2"/>
+        <linkfile src="models/Trusted_Build_Test/uart" dest="apps/uart"/>
+    </project>
 
 </manifest>
 
