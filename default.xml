@@ -76,7 +76,7 @@
         <linkfile src="apps/vm" dest="apps/vm"/>
     </project>
 
-   <project remote="local" name="camkes-apps-DARPA--devel.git" path="projects/DARPA"x/>
+   <project remote="local" name="camkes-apps-DARPA--devel.git" path="projects/DARPA">
         <!-- symlinks to make the project structure fit the build system -->
         <linkfile src="apps/DARPA" dest="apps/DARPA"/>
         <linkfile src="apps/timer" dest="apps/timer"/>
