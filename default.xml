@@ -62,9 +62,11 @@
 
     <project remote="local" name="camkes-arm-vm.git" path="projects/vm">
         <!-- symlinks to make the project structure fit the build system -->
+        <linkfile src="../../tools/camkes/toplevel.mk" dest="Makefile"/>
+        <linkfile src="../../tools/camkes/Kbuild" dest="Kbuild"/>
+	<!--
         <linkfile src="Makefile" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
-	<!--
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
 	-->
