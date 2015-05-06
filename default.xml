@@ -81,7 +81,8 @@
    <project remote="local" name="camkes-apps-DARPA--devel.git" path="projects/DARPA">
         <!-- symlinks to make the project structure fit the build system -->
         <linkfile src="apps/DARPA" dest="apps/DARPA"/>
-        <linkfile src="apps/timer" dest="apps/timer"/>
+        <linkfile src="apps/timer_kzm" dest="apps/timer_kzm"/>
+        <linkfile src="apps/timer_odroid" dest="apps/timer_odroid"/>
     </project>
 
     <project remote="local" name="smaccm.git" path="projects/smaccm" revision="develop">

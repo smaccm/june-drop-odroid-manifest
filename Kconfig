@@ -48,7 +48,8 @@ menu "Applications"
     source "apps/vm/Kconfig"
     source "apps/test_uart_active2/Kconfig"
     source "apps/can/Kconfig"
-    source "apps/timer/Kconfig"
+    source "apps/timer_kzm/Kconfig"
+    source "apps/timer_odroid/Kconfig"
 
 endmenu
 
