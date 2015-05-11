@@ -40,7 +40,7 @@ menu "Libraries"
     source "libs/libsel4arm-vmm/Kconfig"
     source "libs/libsel4allocman/Kconfig"
     source "libs/libusbdrivers/Kconfig"
-    source "libs/libsel4vchan/Kconfig"
+#    source "libs/libsel4vchan/Kconfig"
 endmenu
 
 menu "Applications"
