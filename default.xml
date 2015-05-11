@@ -63,7 +63,7 @@
     <project remote="local" name="libsel4dma.git" path="libs/libsel4dma"/>
     <project remote="local" name="libsel4arm-vmm.git" path="libs/libsel4arm-vmm"/>
     <project remote="local" name="libusbdrivers.git" path="libs/libusbdrivers"/>
-    <project remote="seL4-projects" name="libsel4vchan.git" path="libs/libsel4vchan"/>
+    <!-- <project remote="seL4-projects" name="libsel4vchan.git" path="libs/libsel4vchan"/> -->
 
     <project remote="local" name="camkes-arm-vm.git" path="projects/vm">
         <!-- symlinks to make the project structure fit the build system -->
