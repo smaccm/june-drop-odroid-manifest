@@ -88,6 +88,7 @@
         <linkfile src="apps/DARPA" dest="apps/DARPA"/>
         <linkfile src="apps/timer_kzm" dest="apps/timer_kzm"/>
         <linkfile src="apps/timer_odroid" dest="apps/timer_odroid"/>
+        <linkfile src="templates" dest="projects/templates"/>
     </project>
 
     <project remote="local" name="smaccm.git" path="projects/smaccm" revision="develop">
