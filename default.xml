@@ -99,7 +99,7 @@
 	<linkfile src="models/Trusted_Build_Test/vChan_demo" dest="apps/vChan_demo"/>
     </project>
 
-    <project name="camkes-vchan-test.git" path="projects/camkes-vchan-test" remote="local">
+    <project name="camkes-vchan-test.git" path="projects/camkes-vchan-test" remote="local" revision="arm">
 	<!-- symlinks to make the project structure fit the build system -->
         <linkfile src="apps/vchan-test" dest="apps/vchan-test"/>
 	<linkfile src="apps/vchan-test-aadl" dest="apps/vchan-test-aadl"/>
