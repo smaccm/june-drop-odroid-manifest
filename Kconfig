@@ -51,7 +51,7 @@ menu "Applications"
     source "apps/can/Kconfig"
     source "apps/timer_kzm/Kconfig"
     source "apps/timer_odroid/Kconfig"
-
+    source "apps/smaccmpilot/Kconfig"
 endmenu
 
 source "tools/elfloader/Kconfig"
