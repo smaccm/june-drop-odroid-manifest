@@ -40,7 +40,7 @@ menu "Libraries"
     source "libs/libsel4arm-vmm/Kconfig"
     source "libs/libsel4allocman/Kconfig"
     source "libs/libusbdrivers/Kconfig"
-#    source "libs/libsel4vchan/Kconfig"
+    source "libs/libsel4vchan/Kconfig"
 endmenu
 
 menu "Applications"
@@ -51,6 +51,8 @@ menu "Applications"
     source "apps/can/Kconfig"
     source "apps/timer_kzm/Kconfig"
     source "apps/timer_odroid/Kconfig"
+    source "apps/vchan-test/Kconfig"
+    source "apps/vchan-test-aadl/Kconfig"
 
 endmenu
 
