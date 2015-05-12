@@ -53,7 +53,7 @@ menu "Applications"
     source "apps/timer_odroid/Kconfig"
     source "apps/vchan-test/Kconfig"
     source "apps/vchan-test-aadl/Kconfig"
-
+    source "apps/smaccmpilot/Kconfig"
 endmenu
 
 source "tools/elfloader/Kconfig"
