@@ -88,6 +88,7 @@
         <linkfile src="apps/DARPA" dest="apps/DARPA"/>
         <linkfile src="apps/timer_kzm" dest="apps/timer_kzm"/>
         <linkfile src="apps/timer_odroid" dest="apps/timer_odroid"/>
+        <linkfile src="apps/smaccmpilot" dest="apps/smaccmpilot"/>
         <linkfile src="templates" dest="projects/templates"/>
     </project>
 
