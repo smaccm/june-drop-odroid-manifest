@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="../agacek" name="agacek"/>
+  <remote fetch="." name="local"/>
+  <remote fetch="../seL4" name="seL4"/>
+  <remote fetch="../seL4-projects" name="seL4-projects"/>
+  
+  <default remote="seL4" revision="master"/>
+  
+  <project name="camkes-apps-DARPA--devel.git" path="projects/DARPA" remote="local" revision="674fd15d5fee12c676c54a7ce392494fbb0e7372" upstream="master">
+    <linkfile dest="apps/DARPA" src="apps/DARPA"/>
+    <linkfile dest="apps/timer_kzm" src="apps/timer_kzm"/>
+    <linkfile dest="apps/timer_odroid" src="apps/timer_odroid"/>
+    <linkfile dest="apps/smaccmpilot" src="apps/smaccmpilot"/>
+    <linkfile dest="projects/templates" src="templates"/>
+  </project>
+  <project name="camkes-arm-vm.git" path="projects/vm" remote="local" revision="d658c4fad09e62c0590f3e2d450e75712a8ee272" upstream="master">
+    <linkfile dest="Makefile" src="../../tools/camkes/toplevel.mk"/>
+    <linkfile dest="Kbuild" src="../../tools/camkes/Kbuild"/>
+    <linkfile dest="Kconfig" src="../../.repo/manifests/Kconfig"/>
+    <linkfile dest="configs" src="../../.repo/manifests/configs"/>
+    <linkfile dest="README.md" src="../../tools/camkes/docs/index.md"/>
+    <linkfile dest="libs/libsel4" src="../../kernel/libsel4"/>
+    <linkfile dest="libs/libsel4camkes" src="../../tools/camkes/libsel4camkes"/>
+    <linkfile dest="apps/vm" src="apps/vm"/>
+  </project>
+  <project name="camkes-tool.git" path="tools/camkes" remote="agacek" revision="3b21fa9b3d41b350fe5713e76d113eb518a022ba" upstream="master"/>
+  <project name="camkes-vchan-test.git" path="projects/camkes-vchan-test" remote="local" revision="c9eac08a7828d6de12258c4d6cedd81ad909b137" upstream="arm">
+    <linkfile dest="apps/vchan-test" src="apps/vchan-test"/>
+    <linkfile dest="apps/vchan-test-aadl" src="apps/vchan-test-aadl"/>
+  </project>
+  <project name="capDL-tool.git" path="tools/capDL" revision="d4630e3a6c3491cd69266d802fc75e2b3a4a83f9" upstream="master"/>
+  <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental" revision="a491056cbf5d58e1766c65208547e2c2ffed099d" upstream="master"/>
+  <project name="common-tool.git" path="tools/common" revision="1f9167c826c04e93613b3c3a8a99444b13a08533" upstream="master"/>
+  <project name="elfloader-tool.git" path="tools/elfloader" revision="bb1ff4c48c577af0ceacf5eb4e66ecfcd280c02f" upstream="master"/>
+  <project name="kbuild-tool.git" path="tools/kbuild" revision="820f7efb4fbceeb1d0223f48f34dacfe8378cfdb" upstream="master"/>
+  <project name="libcpio.git" path="libs/libcpio" revision="fb50b5f4e0eedf1da877989a7a22b38ee3e77f4d" upstream="master"/>
+  <project name="libelf.git" path="libs/libelf" revision="5bbbc98166395b896cef2be7a49ba01a751e7c22" upstream="master"/>
+  <project name="libplatsupport.git" path="libs/libplatsupport" revision="cfa40194e58515c8906299f16e8d5f1d10747f86" upstream="master"/>
+  <project name="libsel4allocman.git" path="libs/libsel4allocman" revision="bd03ee58b494e16746d4f5cf64b16edf45c4d457" upstream="master"/>
+  <project name="libsel4arm-vmm.git" path="libs/libsel4arm-vmm" remote="local" revision="11178040b3aa6bcdd4fc9ade9b359cced9b0e647" upstream="master"/>
+  <project name="libsel4bench.git" path="libs/libsel4bench" revision="f4010c752393f7ff3f8d016f4ca51182fba0b09c" upstream="master"/>
+  <project name="libsel4debug.git" path="libs/libsel4debug" revision="6b4072058fd5f1ef1bb2ab1ef51a11a51ddb1149" upstream="master"/>
+  <project name="libsel4dma.git" path="libs/libsel4dma" remote="local" revision="20d71f440e03371ab8a0e8dd31b36cb3a7ff3871" upstream="master"/>
+  <project name="libsel4muslcsys.git" path="libs/libsel4muslcsys" revision="86f784e473fb93d7cd686461cd36a34a66c016af" upstream="master"/>
+  <project name="libsel4muslcsys.git" path="libs/libsel4muslccamkes" revision="9e03311e85810b3c79f2acf0cd0bf9f8c1956ea1" upstream="camkes"/>
+  <project name="libsel4platsupport.git" path="libs/libsel4platsupport" revision="0e27a523dc9a8c82abad1c451364d63cee8bce41" upstream="master"/>
+  <project name="libsel4simple-default.git" path="libs/libsel4simple-default" revision="9d1bb9ba9dff25b9650b9d95bcfd9f6be00d9eaf" upstream="master"/>
+  <project name="libsel4simple.git" path="libs/libsel4simple" revision="b279e0313210fda032dfdb533849b11f9832bde5" upstream="master"/>
+  <project name="libsel4sync.git" path="libs/libsel4sync" revision="44fcfaa7b4f4c0f363fb5572f7617db94c347fd2" upstream="master"/>
+  <project name="libsel4utils.git" path="libs/libsel4utils" revision="a8cfaf5ad11d015045ae9a252be7798f56b713c5" upstream="master"/>
+  <project name="libsel4vchan.git" path="libs/libsel4vchan" remote="seL4-projects" revision="b4f5b1cf7cafc6386ad291e0b482407e15c3bf85" upstream="master"/>
+  <project name="libsel4vka.git" path="libs/libsel4vka" revision="606fbeb5fa5d6c96a22155101d28b146f01fc3ff" upstream="master"/>
+  <project name="libsel4vspace.git" path="libs/libsel4vspace" revision="742bd59cd2bff3eaa4d0d12aa4a01d1b0d873707" upstream="master"/>
+  <project name="libusbdrivers.git" path="libs/libusbdrivers" remote="local" revision="1ed3de8bbffc567806bcabb5f7778b9f2e70ac60" upstream="master"/>
+  <project name="libutils.git" path="libs/libutils" revision="580602c203b1b04b88a57b3647bb2b433ff04153" upstream="master"/>
+  <project name="musllibc.git" path="libs/libmuslc" revision="6aa6001a2413db18f056daa14801e64c0c089e6f" upstream="sel4"/>
+  <project name="python-capdl-tool.git" path="tools/python-capdl" revision="af47b4f921ecacb4ce4c6a137d63f2560d6232b0" upstream="master"/>
+  <project name="seL4.git" path="kernel" remote="local" revision="7c754e68939366130a515ee8de4013bece38e17c" upstream="arm_hyp"/>
+  <project name="smaccm.git" path="projects/smaccm" remote="local" revision="e2106d8d0f07479bc2c7b4ea1132399dce0f3896" upstream="develop">
+    <linkfile dest="apps/test_uart_active2" src="models/Trusted_Build_Test/test_uart_active2"/>
+    <linkfile dest="apps/uart" src="models/Trusted_Build_Test/uart"/>
+    <linkfile dest="apps/can" src="models/Trusted_Build_Test/can"/>
+    <linkfile dest="apps/vChan_demo" src="models/Trusted_Build_Test/vChan_demo"/>
+  </project>
+</manifest>
