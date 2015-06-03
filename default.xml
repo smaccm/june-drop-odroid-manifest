@@ -92,6 +92,7 @@
         <linkfile src="apps/timer_odroid" dest="apps/timer_odroid"/>
         <linkfile src="apps/smaccmpilot" dest="apps/smaccmpilot"/>
         <linkfile src="templates" dest="projects/templates"/>
+        <linkfile src="libs/libsmaccmpilot" dest="libs/libsmaccmpilot"/>
     </project>
 
     <project remote="local" name="smaccm.git" path="projects/smaccm" revision="develop">
