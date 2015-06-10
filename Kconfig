@@ -55,7 +55,7 @@ menu "Applications"
     source "apps/vchan-test/Kconfig"
     source "apps/vchan-test-aadl/Kconfig"
     source "apps/smaccmpilot/Kconfig"
-    source "apps/vm_camera/Kconfig"
+    source "apps/camera_vm/Kconfig"
 endmenu
 
 source "tools/elfloader/Kconfig"

@@ -101,7 +101,7 @@
         <linkfile src="models/Trusted_Build_Test/uart" dest="apps/uart"/>
         <linkfile src="models/Trusted_Build_Test/can" dest="apps/can"/>
 	<linkfile src="models/Trusted_Build_Test/vChan_demo" dest="apps/vChan_demo"/>
-        <linkfile src="models/Trusted_Build_Test/vm_camera" dest="apps/vm_camera"/>
+        <linkfile src="models/Trusted_Build_Test/camera_vm" dest="apps/camera_vm"/>
     </project>
 
     <project name="camkes-vchan-test.git" path="projects/camkes-vchan-test" remote="local" revision="arm">
