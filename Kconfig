@@ -54,7 +54,7 @@ menu "Applications"
     source "apps/timer_odroid/Kconfig"
     source "apps/vchan-test/Kconfig"
     source "apps/vchan-test-aadl/Kconfig"
-    source "apps/smaccmpilot/Kconfig"
+    source "apps/can_proxy_odroid_test/Kconfig"
     source "apps/camera_vm/Kconfig"
 endmenu
 
