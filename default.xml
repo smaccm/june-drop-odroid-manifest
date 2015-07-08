@@ -91,6 +91,7 @@
         <linkfile src="apps/timer_kzm" dest="apps/timer_kzm"/>
         <linkfile src="apps/timer_odroid" dest="apps/timer_odroid"/>
         <linkfile src="apps/can_proxy_odroid_test" dest="apps/can_proxy_odroid_test"/>
+        <linkfile src="apps/smaccmpilot" dest="apps/smaccmpilot"/>
         <linkfile src="templates" dest="projects/templates"/>
         <linkfile src="libs/libsmaccmpilot" dest="libs/libsmaccmpilot"/>
     </project>
