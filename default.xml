@@ -94,6 +94,7 @@
         <linkfile src="apps/smaccmpilot" dest="apps/smaccmpilot"/>
         <linkfile src="templates" dest="projects/templates"/>
         <linkfile src="libs/libsmaccmpilot" dest="libs/libsmaccmpilot"/>
+        <linkfile src="libs/libcan_proxy_odroid_test" dest="libs/libcan_proxy_odroid_test"/>
     </project>
 
     <project remote="local" name="smaccm.git" path="projects/smaccm" revision="develop">
