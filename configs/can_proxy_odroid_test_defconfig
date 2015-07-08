@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # CAmkES project configuration
-# Thu Jun 11 14:16:58 2015
+# Wed Jul  8 08:53:20 2015
 #
 
 #
@@ -113,7 +113,8 @@ CONFIG_LIB_SEL4_SIMPLE_DEFAULT=y
 CONFIG_LIB_SEL4_ALLOCMAN=y
 CONFIG_LIB_USB=y
 CONFIG_LIB_SEL4_VCHAN=y
-CONFIG_LIB_LIBSMACCMPILOT=y
+# CONFIG_LIB_SMACCMPILOT is not set
+CONFIG_LIB_LIBCAN_PROXY_ODROID_TEST=y
 
 #
 # Applications
