@@ -56,7 +56,8 @@ menu "Applications"
     source "apps/vchan-test/Kconfig"
     source "apps/vchan-test-aadl/Kconfig"
     source "apps/can_proxy_odroid_test/Kconfig"
-    source "apps/camera_vm/Kconfig"
+#    source "apps/camera_vm/Kconfig"
+    source "apps/smaccmpilot/Kconfig"
 endmenu
 
 source "tools/elfloader/Kconfig"
