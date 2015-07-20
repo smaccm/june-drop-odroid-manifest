@@ -31,7 +31,7 @@
     />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental"/>
+    <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental" revision="aea11cc5660728c07a0f4b84de634d064f6eda76"/>
 
     <project remote="local" name="seL4.git" path="kernel" revision="arm_hyp" />
 
