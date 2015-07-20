@@ -61,9 +61,9 @@
 
     <project name="libsel4allocman.git" path="libs/libsel4allocman"/>
     <project remote="local" name="libsel4dma.git" path="libs/libsel4dma"/>
-    <project remote="local" name="libsel4arm-vmm.git" path="libs/libsel4arm-vmm" revision="bedfb7d20672a1572eccf7406abf0054e4ddbf56"/>
+    <project remote="local" name="libsel4arm-vmm.git" path="libs/libsel4arm-vmm"/>
     <project remote="local" name="libusbdrivers.git" path="libs/libusbdrivers"/>
-    <project remote="seL4-projects" name="libsel4vchan.git" path="libs/libsel4vchan"/>
+    <project remote="seL4-projects" name="libsel4vchan.git" path="libs/libsel4vchan" revision="bedfb7d20672a1572eccf7406abf0054e4ddbf56"/>
 
     <project remote="seL4-projects" name="global-components.git" path="projects/global-components"/>
 
