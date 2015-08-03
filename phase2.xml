@@ -40,7 +40,7 @@
   <project name="kbuild-tool.git" path="tools/kbuild" revision="820f7efb4fbceeb1d0223f48f34dacfe8378cfdb" upstream="master"/>
   <project name="libcpio.git" path="libs/libcpio" revision="fb50b5f4e0eedf1da877989a7a22b38ee3e77f4d" upstream="master"/>
   <project name="libelf.git" path="libs/libelf" revision="5bbbc98166395b896cef2be7a49ba01a751e7c22" upstream="master"/>
-  <project name="libplatsupport.git" path="libs/libplatsupport" remote="agacek" revision="13809750409f160529cc01c4ca7e3b243f38c185" upstream="master"/>
+  <project name="libplatsupport.git" path="libs/libplatsupport" remote="agacek" revision="6cc43c0cdc63d71731592a280980965c730311ba" upstream="master"/>
   <project name="libsel4allocman.git" path="libs/libsel4allocman" revision="9770489136d938c2736ebc942748f6dd308be962" upstream="master"/>
   <project name="libsel4arm-vmm.git" path="libs/libsel4arm-vmm" remote="local" revision="bff1e9500339141f9a1cec345e2cfeff0c3307c8" upstream="master"/>
   <project name="libsel4bench.git" path="libs/libsel4bench" revision="2e5cd81c217c098e533e95dac3c781b052a02482" upstream="master"/>
