@@ -35,7 +35,7 @@
   <project name="capDL-tool.git" path="tools/capDL" revision="7e282c94837f250376da688576fedd903adfb84e" upstream="master"/>
   <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental" revision="19f7ab5effbee653d7ccd2fbea1275910f176441" upstream="master"/>
   <project name="common-tool.git" path="tools/common" revision="d8690d1be6de61b0f7cc3a8b7fc76afb36936c07" upstream="master"/>
-  <project name="elfloader-tool.git" path="tools/elfloader" remote="agacek" revision="78685edaae828d9a45b3d688f264b217634c4a61" upstream="master"/>
+  <project name="elfloader-tool.git" path="tools/elfloader" revision="5862c64b09a1b4bf6bfd37d7955023de9655f2bb" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="seL4-projects" revision="6f1fd1932e396eb5e6caa971a97c0f8876494394" upstream="master"/>
   <project name="kbuild-tool.git" path="tools/kbuild" revision="820f7efb4fbceeb1d0223f48f34dacfe8378cfdb" upstream="master"/>
   <project name="libcpio.git" path="libs/libcpio" revision="fb50b5f4e0eedf1da877989a7a22b38ee3e77f4d" upstream="master"/>
