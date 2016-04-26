@@ -27,7 +27,7 @@
     <linkfile dest="libs/libsel4camkes" src="../../tools/camkes/libsel4camkes"/>
     <linkfile dest="apps/vm" src="apps/vm"/>
   </project>
-  <project name="camkes-tool.git" path="tools/camkes" revision="a2765f9c84078e55f04cba5a19651622b5d47bb2" upstream="master"/>
+  <project name="camkes-tool.git" path="tools/camkes" remote="local" revision="8bceaf7d7dc71177fdb566bb87f896775c534e27" upstream="master"/>
   <project name="camkes-vchan-test.git" path="projects/camkes-vchan-test" remote="local" revision="c9eac08a7828d6de12258c4d6cedd81ad909b137" upstream="arm">
     <linkfile dest="apps/vchan-test" src="apps/vchan-test"/>
     <linkfile dest="apps/vchan-test-aadl" src="apps/vchan-test-aadl"/>
